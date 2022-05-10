@@ -101,10 +101,10 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.dashboard-log':{
+        'file.handler.transaction-log':{
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
-            'filename': os.path.join(config.Config.LOG_DIR,'dashboard-log.log'),
+            'filename': os.path.join(config.Config.LOG_DIR,'transaction-log.log'),
             'maxBytes': 10000000,
             'backupCount': 5,
         },
@@ -159,8 +159,8 @@ LOGGING_CONFIG = {
             'level': 'INFO',
             'propagate': False
         },
-        'dashboard-log': {   # if __name__ == '__main__'
-          'handlers': ['file.handler.dashboard-log'],
+        'transaction-log': {   # if __name__ == '__main__'
+          'handlers': ['file.handler.transaction-log'],
           'level': 'INFO',
           'propagate': False
         },

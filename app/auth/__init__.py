@@ -1,17 +1,23 @@
-from flask import Blueprint, render_template, request, redirect, url_for, flash
+from flask import Blueprint, render_template, request, redirect, url_for, flash, abort
 from app.auth.decorators import admin_required
 from flask_login import login_user, login_required, logout_user, current_user
 from werkzeug.security import generate_password_hash
 from app.auth.forms import login_form, register_form, profile_form, security_form, user_edit_form
 from app.db import db
 from app.db.models import User
+import csv
+import os
+from app.db.models import Transaction
+from app.auth.forms import csv_upload
+from werkzeug.utils import secure_filename, redirect
+from jinja2 import TemplateNotFound
 
 import logging
 
 auth = Blueprint('auth', __name__, template_folder='templates')
 from flask import current_app
 
-
+transactions = Blueprint('transactions', __name__, template_folder='templates')
 
 
 @auth.route('/login', methods=['POST', 'GET'])
@@ -20,7 +26,7 @@ def login():
     log = logging.getLogger('login-log')
     log.info("Login Test")
     if current_user.is_authenticated:
-        return redirect(url_for('auth.dashboard'))
+        return redirect(url_for('auth.transaction'))
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
         if user is None or not user.check_password(form.password.data):
@@ -41,7 +47,7 @@ def register():
     log = logging.getLogger('register-log')
     log.info("Register Test")
     if current_user.is_authenticated:
-        return redirect(url_for('auth.dashboard'))
+        return redirect(url_for('auth.transaction'))
     form = register_form()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
@@ -60,13 +66,20 @@ def register():
             return redirect(url_for('auth.login'), 302)
     return render_template('register.html', form=form)
 
-
-@auth.route('/dashboard', methods=['POST','GET'])
+@auth.route('/dashboard', methods=['POST', 'GET'], defaults={"page": 1})
+@transactions.route('/dashboard',method=['GET'], defaults={"page":1})
 @login_required
-def dashboard():
-    log = logging.getLogger('dashboard-log')
+def dashboard(page):
+    log = logging.getLogger('transaction-log')
     log.info('Dashboard check')
-    return render_template('dashboard.html')
+    page = page
+    per_page = 1000
+    pagination = Transaction.query.paginate(page,per_page, error_out=False)
+    data = pagination.items
+    try:
+        return render_template('browse_transactions.html', data=data, pagination = pagination)
+    except TemplateNotFound:
+        abort(404)
 
 
 @auth.route("/logout")
@@ -160,7 +173,7 @@ def edit_profile():
         db.session.add(current_user)
         db.session.commit()
         flash('You Successfully Updated your Profile', 'success')
-        return redirect(url_for('auth.dashboard'))
+        return redirect(url_for('auth.transaction'))
     return render_template('profile_edit.html', form=form)
 
 
@@ -174,7 +187,33 @@ def edit_account():
         db.session.add(current_user)
         db.session.commit()
         flash('You Successfully Updated your Password or Email', 'success')
-        return redirect(url_for('auth.dashboard'))
+        return redirect(url_for('auth.transaction'))
     return render_template('manage_account.html', form=form)
 
+@auth.route('/transactions/upload', methods=['POST', 'GET'])
+@transactions.route('/transactions/upload', methods=['POST', 'GET'])
+@login_required
+def transactions_upload():
+    form = csv_upload()
+    if form.validate_on_submit():
+        filename = secure_filename(form.file.data.filename)
+        filepath = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
+        form.file.data.save(filepath)
+        list_of_transactions = []
+        with open(filepath) as file:
+            csv_file = csv.DictReader(file)
 
+            for row in csv_file:
+
+                list_of_transactions.append(Transaction(row['\ufeffAMOUNT'],row['TYPE']))
+
+        current_user.transactions = list_of_transactions
+        db.session.commit()
+
+        return redirect(url_for('auth.dashboard'))
+
+    try:
+        # set up upload html
+        return render_template('upload.html', form=form)
+    except TemplateNotFound:
+        abort(404)

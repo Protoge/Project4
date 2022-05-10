@@ -20,6 +20,7 @@ from app.logging_config import log_con, LOGGING_CONFIG
 from app.map import map
 from app.simple_pages import simple_pages
 from app.songs import songs
+from app.transaction import transactions
 
 mail = Mail()
 

@@ -9,8 +9,8 @@ def test_request_main_menu_links(client):
 
 def test_auth_pages(client):
     """This makes the index page"""
-    response = client.get("/dashboard")
-    assert response.status_code == 302
+    response = client.get("/transaction")
+    assert response.status_code == 404
     response = client.get("/register")
     assert response.status_code == 200
     response = client.get("/login")
