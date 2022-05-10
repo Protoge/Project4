@@ -76,8 +76,15 @@ def dashboard(page):
     per_page = 1000
     pagination = Transaction.query.paginate(page,per_page, error_out=False)
     data = pagination.items
+    transactions_total = 0
+    transactions = Transaction.query.all()
+
+    for transaction in transactions:
+        transactions_total += transaction.amount
+
+
     try:
-        return render_template('browse_transactions.html', data=data, pagination = pagination)
+        return render_template('browse_transactions.html', data=data, pagination = pagination, total = transactions_total)
     except TemplateNotFound:
         abort(404)
 
