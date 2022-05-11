@@ -1,0 +1,14 @@
+2022-05-10 04:10:28,162 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 04:10:28,163 [INFO] test_adding_user myApp: test
+2022-05-10 04:11:11,208 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 04:11:11,209 [INFO] test_adding_user myApp: test
+2022-05-10 06:15:54,942 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 06:15:54,943 [INFO] test_adding_user myApp: test
+2022-05-10 06:19:16,596 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 06:19:16,597 [INFO] test_adding_user myApp: test
+2022-05-10 06:19:38,680 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 06:19:38,683 [INFO] test_adding_user myApp: test
+2022-05-10 06:20:52,993 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 06:20:52,993 [INFO] test_adding_user myApp: test
+2022-05-10 06:21:09,587 [INFO] test_adding_user myApp: <User 'keith@webizly.com'>
+2022-05-10 06:21:09,588 [INFO] test_adding_user myApp: test

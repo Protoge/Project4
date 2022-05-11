@@ -1,0 +1,623 @@
+2022-05-09 05:03:26,562 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:03:26] "GET / HTTP/1.1" 200 -
+2022-05-09 05:03:27,197 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:03:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-09 05:05:14,235 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:14] "GET /register HTTP/1.1" 200 -
+2022-05-09 05:05:25,735 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:25] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-09 05:05:25,773 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:25] "[32mGET /login HTTP/1.1[0m" 302 -
+2022-05-09 05:05:25,845 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:25] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:05:32,495 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:32] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:05:33,647 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:33] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:05:38,056 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:38] "GET /songs HTTP/1.1" 200 -
+2022-05-09 05:05:43,576 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:05:43] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:18:08,202 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:18:08] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:18:08,944 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:18:08] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:21:33,160 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:21:33] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:21:35,356 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:21:35] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 05:28:09,465 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/forms/__init__.py', reloading
+2022-05-09 05:31:41,458 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:31:41] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:31:55,759 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:31:55] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:31:57,928 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:31:57] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:32:31,747 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:32:31] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:36:29,216 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:36:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:37:19,829 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:37:19] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:38:02,314 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:38:02,394 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:02] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 05:38:02,409 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:02] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 05:38:02,534 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:02] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 05:38:02,683 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:17,080 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:17] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:38:17,124 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 05:38:17,126 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 05:38:17,249 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:17,401 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:18,053 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:18] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:38:18,100 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 05:38:18,104 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 05:38:18,203 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:18,273 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:56,203 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:38:56,245 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 05:38:56,250 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 05:38:56,362 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:38:56,521 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:38:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:39:44,240 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:44] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:39:44,283 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 05:39:44,294 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 05:39:44,401 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:39:44,542 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:44] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:39:45,709 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 05:39:45,764 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 05:39:45,769 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 05:39:45,869 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:39:45,932 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:39:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 05:41:07,161 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:41:07] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:41:20,494 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:41:20] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 05:41:35,530 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:41:35] "GET /locations HTTP/1.1" 200 -
+2022-05-09 05:41:40,209 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:41:40] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 05:42:12,942 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 05:42:12] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 05:51:42,287 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 16:13:22,531 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-05-09 16:13:22,888 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:22] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-05-09 16:13:30,060 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:30] "[35m[1mPOST /login?next=%2Fdashboard HTTP/1.1[0m" 500 -
+2022-05-09 16:13:30,105 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:30] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 16:13:30,109 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:30] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 16:13:30,199 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:30] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 16:13:30,286 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:13:30] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 16:15:20,285 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-05-09 16:15:22,187 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:22] "[32mGET /login?next=%2Fdashboard HTTP/1.1[0m" 302 -
+2022-05-09 16:15:22,748 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:22] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 16:15:22,926 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:22] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 16:15:25,373 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:25] "GET /locations HTTP/1.1" 200 -
+2022-05-09 16:15:26,195 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:26] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 16:15:26,262 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 16:15:26,264 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 16:15:26,404 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 16:15:26,482 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:15:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 16:17:40,720 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 16:18:24,055 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:18:24] "GET / HTTP/1.1" 200 -
+2022-05-09 16:18:26,491 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:18:26] "GET /locations HTTP/1.1" 200 -
+2022-05-09 16:18:35,124 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:18:35] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 16:21:38,720 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:21:38] "[32mPOST /locations/upload HTTP/1.1[0m" 302 -
+2022-05-09 16:21:38,777 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:21:38] "GET /locations HTTP/1.1" 200 -
+2022-05-09 16:29:57,085 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:29:57] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:33:17,199 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 16:41:52,098 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:41:52] "[35m[1mGET /songs HTTP/1.1[0m" 500 -
+2022-05-09 16:41:52,146 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:41:52] "GET /songs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 16:41:52,149 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:41:52] "GET /songs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 16:41:52,290 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:41:52] "GET /songs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 16:41:52,447 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:41:52] "[36mGET /songs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 16:42:41,804 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 16:42:44,158 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:42:44] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:43:31,197 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 16:43:33,582 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:43:33] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:43:40,714 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:43:40] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:43:42,869 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:43:42] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:43:44,004 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:43:44] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:43:56,806 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:43:56] "GET /songs HTTP/1.1" 200 -
+2022-05-09 16:59:14,862 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:14] "GET /locations HTTP/1.1" 200 -
+2022-05-09 16:59:19,645 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:19] "[32mGET /locations/1 HTTP/1.1[0m" 308 -
+2022-05-09 16:59:19,721 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:19] "GET /locations HTTP/1.1" 200 -
+2022-05-09 16:59:28,071 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:28] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-09 16:59:44,876 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:44] "[35m[1mPOST /songs/upload HTTP/1.1[0m" 500 -
+2022-05-09 16:59:44,957 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:44] "GET /songs/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 16:59:44,965 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:44] "GET /songs/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 16:59:45,054 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:45] "GET /songs/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 16:59:45,148 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 16:59:45] "[36mGET /songs/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:02:32,290 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:02:32] "GET /locations HTTP/1.1" 200 -
+2022-05-09 17:03:16,332 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:03:16] "GET /songs HTTP/1.1" 200 -
+2022-05-09 17:07:17,334 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:07:19,728 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:07:19] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:07:19,783 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:07:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:07:19,791 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:07:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:07:19,957 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:07:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:09:39,747 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:09:42,219 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:09:42] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:09:42,270 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:09:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:09:42,277 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:09:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:09:42,415 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:09:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:09:42,565 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:09:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:02,413 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:10:02,458 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:10:02,460 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:10:02,572 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:02,725 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:03,404 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:03] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:10:03,454 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:10:03,460 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:10:03,576 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:03,715 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:30,445 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:30] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:10:30,491 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:10:30,492 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:10:30,611 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:30,754 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:32,503 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:32] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:10:32,551 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:10:32,557 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:10:32,671 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:32,756 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:10:35,749 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:35] "GET / HTTP/1.1" 200 -
+2022-05-09 17:10:37,157 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:10:37,203 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:10:37,207 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:10:37,306 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:10:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:13:15,383 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:13:18,100 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:13:18] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:13:18,149 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:13:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:13:18,155 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:13:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:13:18,298 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:13:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:13:18,451 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:13:18] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:21,969 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:16:24,417 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:24] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:16:24,463 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:16:24,470 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:16:24,579 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:24,710 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:24] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:45,197 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:16:45,248 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:16:45,256 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:16:45,377 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:45,523 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:48,873 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:48] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:16:48,922 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:48] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:16:48,923 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:48] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:16:49,028 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:49,096 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:51,140 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:51] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:16:51,182 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:16:51,184 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:16:51,287 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:16:53,810 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:53] "GET /locations HTTP/1.1" 200 -
+2022-05-09 17:16:56,110 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:16:56,154 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:16:56,159 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:16:56,242 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:16:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:18:49,673 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:49] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:18:49,717 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:18:49,722 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:18:49,841 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:18:50,004 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:18:53,440 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:53] "GET / HTTP/1.1" 200 -
+2022-05-09 17:18:54,632 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:54] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:18:54,687 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:18:54,691 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:18:54,783 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:18:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:19:37,505 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:19:37] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 17:20:34,982 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:20:37,482 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:20:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:20:37,537 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:20:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:20:37,548 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:20:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:20:37,664 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:20:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:20:37,843 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:20:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:24:08,216 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:08] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:24:08,267 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:24:08,269 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:24:08,323 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:24:12,466 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 17:24:12,540 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:24:12,551 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:24:12,651 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:24:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:25:47,619 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:25:47] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 17:26:50,106 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:26:52,627 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:26:52] "GET /songs HTTP/1.1" 200 -
+2022-05-09 17:27:06,409 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:27:06] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 17:27:24,968 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:27:24] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 17:51:23,221 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:23] "GET /locations HTTP/1.1" 200 -
+2022-05-09 17:51:24,056 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:24] "GET /locations/upload HTTP/1.1" 200 -
+2022-05-09 17:51:27,571 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:27] "[35m[1mPOST /locations/upload HTTP/1.1[0m" 500 -
+2022-05-09 17:51:27,603 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:27] "GET /locations/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 17:51:27,606 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:27] "GET /locations/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 17:51:27,665 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:27] "GET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 17:51:27,738 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:27] "[36mGET /locations/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:51:30,858 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:30] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 17:51:31,817 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:31] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 17:51:33,784 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:33] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 17:51:33,843 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:33] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 17:51:33,850 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:33] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 17:51:33,892 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:33] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 17:51:33,957 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:33] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:51:41,205 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:41] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 17:51:41,234 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:41] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:51:41,235 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:41] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:51:41,287 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:41] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:51:41,337 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:51:41] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:57:23,183 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 17:57:26,265 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:26] "GET / HTTP/1.1" 200 -
+2022-05-09 17:57:27,488 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:27] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 17:57:28,243 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:28] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 17:57:33,087 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:33] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 17:57:33,115 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:33] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 17:57:33,119 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:33] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 17:57:33,173 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:33] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 17:57:33,205 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 17:57:33] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:11:19,992 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 18:11:27,716 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:27] "GET / HTTP/1.1" 200 -
+2022-05-09 18:11:29,181 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 18:11:29,919 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:29] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 18:11:35,709 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:35] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:11:35,761 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:11:35,767 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:11:35,812 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:11:35,873 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:11:52,722 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 18:11:54,346 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:54] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:11:54,377 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:11:54,378 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:11:54,440 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:11:54,493 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:11:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:17:28,419 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-05-09 18:17:43,336 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:17:43] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:17:43,381 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:17:43] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:17:43,389 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:17:43] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:17:43,449 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:17:43] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:17:43,508 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:17:43] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:18:44,282 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:18:44] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:18:44,302 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:18:44] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:18:44,304 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:18:44] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:18:44,335 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:18:44] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:18:44,407 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:18:44] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:24:43,334 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 18:24:45,024 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:24:45] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:24:45,066 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:24:45] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:24:45,072 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:24:45] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:24:45,119 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:24:45] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:24:45,175 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:24:45] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:24:56,187 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 18:25:01,142 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:25:01] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:25:01,165 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:25:01] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:25:01,168 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:25:01] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:25:01,210 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:25:01] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:25:01,257 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:25:01] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:30:23,454 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 18:30:28,795 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:28] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 18:30:29,550 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:29] "GET /locations HTTP/1.1" 200 -
+2022-05-09 18:30:30,668 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:30] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 18:30:31,352 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:31] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 18:30:35,147 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:35] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 18:30:35,177 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 18:30:35,180 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 18:30:35,233 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:30:35,285 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:30:35] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 18:53:37,992 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 18:53:37] "GET /locations HTTP/1.1" 200 -
+2022-05-09 19:34:50,219 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-05-09 19:34:54,583 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:54] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 19:34:55,565 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:55] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 19:34:59,559 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:59] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 19:34:59,592 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:59] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 19:34:59,596 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:59] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 19:34:59,628 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:59] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:34:59,650 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:34:59] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:50:44,448 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 19:50:48,042 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:48] "GET /locations HTTP/1.1" 200 -
+2022-05-09 19:50:48,808 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:48] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 19:50:49,715 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:49] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 19:50:54,600 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:54] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 19:50:54,648 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 19:50:54,654 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 19:50:54,701 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:50:54,760 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:50:54] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:51:09,404 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 19:51:12,208 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 19:51:12,239 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 19:51:12,243 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 19:51:12,306 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:51:12,382 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:51:52,497 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 19:51:55,638 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:55] "GET /locations HTTP/1.1" 200 -
+2022-05-09 19:51:56,446 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:56] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 19:51:57,438 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:51:57] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 19:52:12,344 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:52:12] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 19:52:12,368 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:52:12] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 19:52:12,370 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:52:12] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 19:52:12,432 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:52:12] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:52:12,529 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:52:12] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:55:11,215 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 19:55:13,950 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:55:13] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-09 19:55:14,173 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:55:14] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 19:55:16,936 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:55:16] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 19:55:57,050 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-09 19:58:41,838 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:41] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 19:58:42,679 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:42] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-09 19:58:47,665 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:47] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 19:58:47,693 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:47] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 19:58:47,696 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:47] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 19:58:47,738 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:47] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 19:58:47,765 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 19:58:47] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 20:07:56,078 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:07:56] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-09 20:07:56,117 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:07:56] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 20:07:56,121 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:07:56] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 20:07:56,160 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:07:56] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 20:07:56,190 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:07:56] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 20:11:35,934 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-05-09 20:11:57,796 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:11:57] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 20:11:58,394 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:11:58] "GET /locations HTTP/1.1" 200 -
+2022-05-09 20:12:27,479 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-05-09 20:23:43,426 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:23:43] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 20:23:43,480 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 20:23:43] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 20:35:25,927 [INFO] _log werkzeug:  * Detected change in '/home/myuser/tests/dashboard_test.py', reloading
+2022-05-09 22:12:17,609 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:17] "[35m[1mGET /songs HTTP/1.1[0m" 500 -
+2022-05-09 22:12:17,661 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:17] "GET /songs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 22:12:17,666 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:17] "GET /songs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 22:12:17,761 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:17] "GET /songs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 22:12:17,900 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:17] "[36mGET /songs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:12:18,979 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:18] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 22:12:19,011 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:19] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 22:12:19,012 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:19] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 22:12:19,078 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:19] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 22:12:20,177 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:20] "[35m[1mGET /locations HTTP/1.1[0m" 500 -
+2022-05-09 22:12:20,204 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:20] "GET /locations?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 22:12:20,206 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:20] "GET /locations?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 22:12:20,270 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:20] "GET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 22:12:20,323 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:12:20] "[36mGET /locations?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:31:03,747 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/transaction/__init__.py', reloading
+2022-05-09 22:31:07,594 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:31:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:31:07,647 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:31:07] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 22:31:07,658 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:31:07] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 22:31:07,721 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:31:07] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 22:31:07,793 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:31:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:07,711 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:33:07,736 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:33:07,737 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:33:07,813 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:07,890 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:07] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:08,778 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:33:08,805 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:33:08,807 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:33:08,874 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:08,909 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,454 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:33:09,497 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,501 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,573 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,615 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,822 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:33:09,851 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,853 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,905 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:09,946 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:10,188 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:33:10,217 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:33:10,220 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:33:10,273 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:33:10,309 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:33:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:35:18,133 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/transaction/__init__.py', reloading
+2022-05-09 22:35:20,468 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:35:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:35:20,491 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:35:20,494 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:35:20,565 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:35:20,661 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:35:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:37:40,412 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:40] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:37:40,439 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:37:40,440 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:37:40,514 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:37:40,597 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:40] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:37:41,206 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-09 22:37:41,231 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:37:41,236 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:37:41,311 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:37:41,387 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:37:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:38:20,733 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:38:20] "[35m[1mGET /map HTTP/1.1[0m" 500 -
+2022-05-09 22:38:20,763 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:38:20] "GET /map?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-09 22:38:20,769 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:38:20] "GET /map?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-09 22:38:20,844 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:38:20] "GET /map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-09 22:38:20,932 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:38:20] "[36mGET /map?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:47:10,505 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:10] "[33mGET /map HTTP/1.1[0m" 404 -
+2022-05-09 22:47:13,801 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:13] "GET /dashboard HTTP/1.1" 200 -
+2022-05-09 22:47:56,945 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:56] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 22:47:56,976 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:47:56,982 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:56] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:47:57,055 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:47:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:48:05,804 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:48:05] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-09 22:48:05,828 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:48:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-09 22:48:05,833 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:48:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-09 22:48:05,902 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:48:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:48:05,986 [INFO] _log werkzeug: 172.28.0.1 - - [09/May/2022 22:48:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-09 22:51:54,651 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-05-10 02:42:28,126 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:42:28] "GET / HTTP/1.1" 200 -
+2022-05-10 02:42:29,552 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:42:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 02:43:13,699 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:13] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 02:43:18,604 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:18] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 02:43:18,638 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:18] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-10 02:43:18,642 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:18] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-10 02:43:18,675 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:18] "GET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-10 02:43:18,697 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:43:18] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:44:08,300 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-05-10 02:53:09,407 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-10 02:53:09,459 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 02:53:09,462 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 02:53:09,523 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:53:09,597 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:53:09,951 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-05-10 02:53:09,984 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 02:53:09,988 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:09] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 02:53:10,076 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:53:10,151 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:53:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:54:09,864 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:09] "GET / HTTP/1.1" 200 -
+2022-05-10 02:54:11,281 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:11] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 02:54:22,897 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:22] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 02:54:22,921 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:22] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 02:54:22,922 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:22] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 02:54:22,975 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:22] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 02:54:23,012 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 02:54:23] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:06:03,668 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:06:05,186 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:06:05] "[35m[1mGET /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:06:05,231 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:06:05] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:06:05,238 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:06:05] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:06:05,318 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:06:05] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:06:05,404 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:06:05] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:28:58,416 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:29:03,213 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:03] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-10 03:29:03,241 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:29:03,242 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:29:03,299 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:29:21,790 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:21] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-10 03:29:21,833 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:21] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:29:21,840 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:21] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:29:21,887 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:21] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:29:50,605 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:50] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-10 03:29:50,630 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:29:50,633 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:29:50,681 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:29:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:30:03,562 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:03] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:30:08,394 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:08] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:30:09,839 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:09] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:30:10,771 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:10] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:30:24,345 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:24] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:30:24,371 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:24] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:30:24,377 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:24] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:30:24,436 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:24] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:30:24,492 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:24] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:30:34,552 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:34] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:30:35,397 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:35] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:30:38,912 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:38] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:30:38,951 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:38] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:30:38,956 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:38] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:30:38,994 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:38] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:30:39,020 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:30:39] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:32:23,625 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:32:27,620 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:32:27] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:32:27,646 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:32:27] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:32:27,648 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:32:27] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:32:27,700 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:32:27] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:32:27,736 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:32:27] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:33:09,004 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:33:11,714 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:11] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:33:11,759 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:11] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:33:11,766 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:11] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:33:11,827 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:11] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:33:11,920 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:11] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:33:27,087 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:33:28,487 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:28] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:33:28,776 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:28] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:33:34,356 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:34] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:33:38,518 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:38] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:33:38,564 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:38] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:33:55,118 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:33:56,524 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:33:56] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:34:00,497 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:34:00] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:34:00,622 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:34:00] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:34:44,691 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-05-10 03:34:46,119 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:34:46] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:34:51,245 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:34:51] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:34:51,370 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:34:51] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:35:06,748 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:35:06] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:35:11,996 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:35:11] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:35:12,035 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:35:12] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:37:54,525 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:37:56,113 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:37:56] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:38:00,292 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:00] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:38:00,320 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:00] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:38:00,326 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:00] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:38:00,393 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:00] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:38:00,467 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:00] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:38:14,599 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:38:17,088 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:17] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:38:17,360 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:17] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:38:48,309 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:48] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:38:48,410 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:38:52,994 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:52] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:38:53,338 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:38:53] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:39:12,958 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:39:12] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:39:13,551 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:39:18,015 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:39:18] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:39:18,274 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:39:18] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:41:43,307 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:41:43] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:41:43,494 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:41:47,925 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:41:47] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:41:48,251 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:41:48] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:46:27,513 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:27] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 03:46:28,150 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:46:31,965 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:31] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:46:32,008 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:46:32,014 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:46:32,075 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:46:32,116 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:46:32] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:47:02,056 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:47:04,127 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:04] "[35m[1mPOST /transactions/upload HTTP/1.1[0m" 500 -
+2022-05-10 03:47:04,153 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:04] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 03:47:04,157 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:04] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 03:47:04,225 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:04] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:47:04,282 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:04] "[36mGET /transactions/upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 03:47:26,615 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 03:47:29,394 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:29] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 03:47:29,682 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 03:47:47,604 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:47] "[33mGET /dashboard2 HTTP/1.1[0m" 404 -
+2022-05-10 03:47:49,255 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 03:47:49] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 04:07:01,925 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:01] "GET /account HTTP/1.1" 200 -
+2022-05-10 04:07:16,865 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 04:07:16,890 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:16] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:07:20,926 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:20] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-05-10 04:07:20,950 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:20] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-05-10 04:07:20,951 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:20] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-05-10 04:07:20,996 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:20] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-05-10 04:07:21,022 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:07:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 04:08:08,901 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 04:08:14,051 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:14] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:08:20,720 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 04:08:20,844 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:20] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 04:08:26,508 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-10 04:08:26,526 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:26] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:08:39,047 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 04:08:39,065 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:39] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:08:40,461 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:40] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:08:40,964 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:40] "GET /register HTTP/1.1" 200 -
+2022-05-10 04:08:48,525 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-10 04:08:48,539 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:48] "GET /login HTTP/1.1" 200 -
+2022-05-10 04:08:57,651 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-10 04:08:57,688 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:08:57] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 04:09:19,276 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:09:19] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 04:09:20,028 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 04:09:20] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 04:10:56,303 [INFO] _log werkzeug:  * Detected change in '/home/myuser/tests/auth_test.py', reloading
+2022-05-10 05:11:53,890 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:11:53] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:12:39,805 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:12:39] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:22:55,755 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:23:02,036 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:23:02] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:23:02,992 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:23:02] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:23:30,319 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:23:30] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:23:30,789 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:23:32,491 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:23:32] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:27:45,365 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:27:47,449 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:27:47] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:27:51,834 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:27:51] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 05:27:52,022 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:27:52] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:28:22,405 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:28:24,701 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:28:24] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:28:29,821 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:28:29] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 05:28:29,931 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:28:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:28:53,682 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:28:55,338 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:28:55] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:29:00,195 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:29:00] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 05:29:00,331 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:29:00] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:29:19,532 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:29:21,337 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:29:21] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:29:26,434 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:29:26] "[32mPOST /transactions/upload HTTP/1.1[0m" 302 -
+2022-05-10 05:29:26,611 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:29:26] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:30:32,007 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:31:29,907 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:29] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:31:36,369 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:31:38,423 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:38] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-05-10 05:31:38,484 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:38] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-05-10 05:31:38,488 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:38] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-05-10 05:31:38,601 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:38] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 05:31:38,679 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:31:38] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-05-10 05:32:34,425 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:34:53,890 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:34:53] "GET /transactions/upload HTTP/1.1" 200 -
+2022-05-10 05:34:55,162 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:34:55] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:35:21,613 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:35:23,575 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:35:23] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:36:53,331 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:38:30,923 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:38:30] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:38:43,095 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:38:45,578 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:38:45] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 05:39:33,959 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 05:39:35,605 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 05:39:35] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 06:10:52,666 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-05-10 06:10:54,015 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 06:10:54] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 06:18:25,115 [INFO] _log werkzeug:  * Detected change in '/home/myuser/tests/dashboard_test.py', reloading
+2022-05-10 06:19:04,512 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 06:19:04] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 06:19:31,646 [INFO] _log werkzeug:  * Detected change in '/home/myuser/tests/dashboard_test.py', reloading
+2022-05-10 06:32:57,722 [INFO] _log werkzeug: 172.28.0.1 - - [10/May/2022 06:32:57] "GET /dashboard HTTP/1.1" 200 -
+2022-05-10 20:20:05,944 [INFO] _log werkzeug:  * Detected change in '/home/myuser/tests/dashboard_test.py', reloading
+2022-05-11 06:47:09,233 [INFO] _log werkzeug: 172.28.0.1 - - [11/May/2022 06:47:09] "GET /locations HTTP/1.1" 200 -
+2022-05-11 06:47:11,210 [INFO] _log werkzeug: 172.28.0.1 - - [11/May/2022 06:47:11] "GET /dashboard HTTP/1.1" 200 -
+2022-05-11 07:03:18,803 [INFO] _log werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-05-11 07:03:22,787 [INFO] _log werkzeug: 172.28.0.1 - - [11/May/2022 07:03:22] "GET /dashboard HTTP/1.1" 200 -
