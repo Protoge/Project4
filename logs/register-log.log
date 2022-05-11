@@ -22,3 +22,6 @@
 2022-05-10 06:21:06,256 [INFO] register register-log: Register Test
 2022-05-10 06:21:07,730 [INFO] register register-log: Register Test
 2022-05-10 06:21:07,894 [INFO] test_request_register register-log: Register check
+2022-05-11 07:23:07,950 [INFO] register register-log: Register Test
+2022-05-11 07:23:10,860 [INFO] register register-log: Register Test
+2022-05-11 07:23:11,275 [INFO] test_request_register register-log: Register check

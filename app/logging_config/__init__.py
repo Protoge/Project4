@@ -101,6 +101,14 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
+        'file.handler.balance-log': {
+            'class': 'logging.handlers.RotatingFileHandler',
+            'formatter': 'standard',
+            'filename': os.path.join(config.Config.LOG_DIR, 'balance-log.log'),
+            'maxBytes': 1000000,
+            'backupCount': 5
+        }
+        ,
         'file.handler.transaction-log':{
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
@@ -108,7 +116,7 @@ LOGGING_CONFIG = {
             'maxBytes': 10000000,
             'backupCount': 5,
         },
-        'file.handler.login-log':{
+        'file.handler.login-log': {
             'class': 'logging.handlers.RotatingFileHandler',
             'formatter': 'standard',
             'filename': os.path.join(config.Config.LOG_DIR,'login-log.log'),
@@ -159,6 +167,12 @@ LOGGING_CONFIG = {
             'level': 'INFO',
             'propagate': False
         },
+        'balance-log': {    # if __name__ == '__main__'
+            'handlers': ['file.handler.balance-log'],
+            'level': 'INFO',
+            'propagate': False
+        }
+        ,
         'transaction-log': {   # if __name__ == '__main__'
           'handlers': ['file.handler.transaction-log'],
           'level': 'INFO',
