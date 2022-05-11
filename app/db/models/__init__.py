@@ -10,7 +10,6 @@ from sqlalchemy_serializer import SerializerMixin
 
 class Transaction(db.Model, SerializerMixin):
     __tablename__ = 'transactions'
-    serialize_only = ('amount','type')
 
     id = db.Column(db.Integer, primary_key=True)
     amount = db.Column(db.Integer, nullable=True)
@@ -21,12 +20,6 @@ class Transaction(db.Model, SerializerMixin):
     def __init__(self, amount, type):
         self.amount = amount
         self.type = type
-
-    def serialize(self):
-        return {
-            'amount': self.amount,
-            'type': self.type
-        }
 
 
 class Song(db.Model, SerializerMixin):
