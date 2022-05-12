@@ -1,10 +1,10 @@
 # Project Setup
 
 [![Production Workflow 1](https://github.com/Protoge/flask_auth4/actions/workflows/prod.yml/badge.svg?branch=main)](https://github.com/Protoge/flask_auth4/actions/workflows/prod.yml)
-* [Production Deployment](https://rjgilo-flask-auth-prod.herokuapp.com/)
+* [Production Deployment](https://rjgilo-finalproject4-prod.herokuapp.com/)
 
 [![Development Workflow 3.8](https://github.com/Protoge/flask_auth4/actions/workflows/dev.yml/badge.svg?branch=main)](https://github.com/Protoge/flask_auth4/actions/workflows/dev.yml)
-* [Developmental Deployment](https://rjgilo-flask-auth-dev.herokuapp.com/)
+* [Developmental Deployment](https://rjgilo-finalproject4-dev.herokuapp.com/)
 
 ## Setting up CI/CD
 
